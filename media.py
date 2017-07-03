@@ -1,5 +1,8 @@
+#Initial import for one of the lessons for the function 'showTrailer'
 import webbrowser
 
+#Class video allows instances to be made of a movie for __doc__.
+#I made this into a parent class as the last lesson describes using TV shows as well
 class Video():
     """This class accepts and provides video information"""
     
@@ -13,7 +16,9 @@ class Video():
 
     def showTrailer(self):
         webbrowser.open(self.trailerYoutubeURL)
-    
+
+#The children classes for the Video class. For convenience of not having to write code again.
+#Hope you don't mind reading a bit more code...
 class Movie(Video):
     """This class accepts and provides Movie show information"""
 
