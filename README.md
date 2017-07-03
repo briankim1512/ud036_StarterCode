@@ -1,5 +1,6 @@
 # ud036_StarterCode
 Source code for a Movie Trailer website.
+This code was taken from git repo: https://github.com/adarsh0806/ud036_StarterCode
 
 Prerequisites to running this application:
     You must have installed python. If not, follow the instructions within
